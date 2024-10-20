@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://bc60xnhia2uh7"]
+
+[ext_resource type="PackedScene" uid="uid://bgoalmpy7yb3n" path="res://Entities/Shelf.tscn" id="1_at1ou"]
+[ext_resource type="PackedScene" uid="uid://dapl4nx60c4x3" path="res://Entities/Plant/Plant.tscn" id="2_1sd37"]
+
+[node name="Shop" type="Node2D"]
+
+[node name="Shelf" parent="." instance=ExtResource("1_at1ou")]
+position = Vector2(400, 442)
+scale = Vector2(5, 5)
+
+[node name="Plant" parent="." instance=ExtResource("2_1sd37")]
+position = Vector2(343, -2.99997)
+scale = Vector2(10, 10)

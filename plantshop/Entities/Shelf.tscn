@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://bgoalmpy7yb3n"]
+
+[ext_resource type="Texture2D" uid="uid://b0hmxsnxgcoib" path="res://Art Assets/shelf.png" id="1_5dfal"]
+
+[node name="Shelf" type="Node2D"]
+position = Vector2(-2, -2)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(36, 6)
+texture = ExtResource("1_5dfal")
